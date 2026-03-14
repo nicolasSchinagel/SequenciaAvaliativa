@@ -44,3 +44,24 @@
  z-index:5;
  pointer-events:none;
 }
+button{
+    width: 200px;
+    height: 80px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    margin: 20px 20px;
+    background-color: ghostwhite;
+    border-color: black;
+    border-width: 3px;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: lighter;
+    transition: 0.4s;
+}
+button:hover{
+    background-color: gainsboro;
+    cursor: pointer;
+}

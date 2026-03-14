@@ -6,6 +6,7 @@
     <title>Simple sequence list</title>
     <link rel="stylesheet" href="css/style.css"/>
 </head>
+<script src="script.js" defer></script>
 <body>
     <h2 id="tittle">This is a simple sequence list</h2>
     <h3 id="description">The idea includes to do a simple sequence list for a random avaliation, like how many stars does it have?</h3>
@@ -16,11 +17,11 @@
          <img id="barimage" src="img/StarComb.png">
 
     </div>
-    <button id="fiveAv"> Five stars</button>
-    <button id="fourAv"> Four stars</button>
-    <button id="threeAv"> Three stars</button>
-    <button id="twoAv"> Two stars</button>
-    <button id="oneAv"> One star</button>
-    <button id="zeroAv"> Zero stars</button>
+    <button id="fiveAv" onclick="avaliate(5)"> Five stars</button>
+    <button id="fourAv" onclick="avaliate(4)"> Four stars</button>
+    <button id="threeAv" onclick="avaliate(3)"> Three stars</button>
+    <button id="twoAv" onclick="avaliate(2)"> Two stars</button>
+    <button id="oneAv" onclick="avaliate(1)"> One star</button>
+    <button id="zeroAv" onclick="avaliate(0)"> Zero stars</button>
 </body>
 </html>
