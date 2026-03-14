@@ -31,12 +31,17 @@
  top:0;
  left:0;
 
- width:50%;
+ width:0%;
  height:100%;
 
  background:yellow;
+ transition: 0.6s;
 }
-
+#nota{
+    margin: 20px 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 #barimage{
  position:absolute;
  width:100%;

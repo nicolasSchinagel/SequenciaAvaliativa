@@ -46,4 +46,6 @@ function avaliate(note){
     console.log(`Quantidade de avaliações 2 estrelas: ${types["2"]}`);
     console.log(`Quantidade de avaliações 1 estrela: ${types["1"]}`);
     console.log(`Quantidade de avaliações 0 estrela: ${types["0"]}`);
+    document.getElementById("yellowbar").style.width = `${percentage}%`;
+    document.getElementById("nota").textContent = `Nota: ${Math.round(average*100)/100}`;
 }
